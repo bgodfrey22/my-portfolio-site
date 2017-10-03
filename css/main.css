@@ -1,0 +1,231 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#about, #projects, #contact {
+    height: auto;
+    margin: 0px;
+}
+
+/***** GRID *****/
+
+/***** BORDERS
+border-width: 4px;
+border-style: solid;
+border-color: #000;
+ *****/
+.full-width {
+    width: auto;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+}
+
+body {
+  margin: 0;
+  padding-top: 570px;
+}
+/***** HEADER *****/
+
+header {
+    height: 100%;
+    background: url('../img/header-background.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-top: 20%;
+    padding-left: 20%;
+    margin: 0px auto;
+}
+
+header h2 {
+    font-family: 'Pacifico', serif;
+    font-size: 125px;
+    padding-left: 20%;
+    margin: 0px auto;
+}
+
+header h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    padding-left: 20%;
+}
+
+.nav-bar .half-width {
+  background: #248804;
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  z-index: 150;
+}
+
+.nav-bar-scrolled,
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+main h4 {
+    font-family: 'Pacifico', serif;
+    font-size: 36px;
+    color: #fff;
+    padding-left: 50px;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    font-family: 'PT Serif Caption', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+    padding-right: 80px;
+}
+
+.nav-bar a:hover {
+      background-color: #248804;
+      transition: .3s;
+    }
+
+nav li a:hover:not(.active) {
+      background-color: #fff;
+      color: #000;
+  }
+
+.nav-bar,
+main {
+  position: relative;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+    background: #fbfbfb;
+    padding: 50px 0px;
+    clear: both;
+    text-align: center;
+}
+
+#about h2 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 36px;
+}
+
+#about p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 36px;
+    padding: 0px 50px;
+}
+
+#about a {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#about-img {
+  height: 150px;
+  width: auto;
+  clear: both;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: none;
+}
+
+/***** PROJECTS *****/
+
+#projects .full-width {
+  height: auto;
+  background: url('../img/portfolio-full-background.png');
+  background-size: cover;
+  text-align: center;
+  margin: 0px;
+}
+
+#projects h2 {
+  font-size: 42px;
+  margin: 0px;
+  margin: 0px;
+  padding: 20%;
+}
+
+/***** CONTACT *****/
+
+#contact .full-width {
+  height: 450px;
+  background: url('../img/contact-full-background.jpg');
+  background-size: cover;
+  text-align: left;
+  margin: 0px;
+}
+
+#contact .half-width {
+  height: auto;
+  width: auto;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#contact-img {
+    border: 4px solid #000;
+    border-radius: 50%;
+    height: 250px;
+    width: auto;
+}
+
+#contact h2 {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 24pt;
+  margin-top: 0;
+}
+
+#contact h3 {
+  font-size: 18pt;
+}
+
+#contact a {
+  font-size: 18pt;
+  text-decoration: none;
+  color: #248804;
+  font-weight: bolder;
+}
+
+#contact ul {
+    float: none;
+    list-style: none;
+}
+
+#contact li {
+     display: inline-block;
+}
+#contact ul img {
+    height: 50px;
+    width: auto;
+    padding-top: 20px;
+    padding-right: 50px;
+    border: none;
+}
