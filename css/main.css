@@ -139,14 +139,18 @@ main {
     padding: 0px 50px;
 }
 
-#about a {
+#more-info button {
+    clear: both;
+    background-color: #248804;
+    width: 300px;
+}
+
+#more-info a {
     font-size: 24px;
     font-weight: bold;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     text-align: center;
-    margin-top: 30px;
-    clear: both;
 }
 
 
